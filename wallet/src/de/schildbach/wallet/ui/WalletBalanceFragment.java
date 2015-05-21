@@ -39,7 +39,7 @@ import de.schildbach.wallet.ExchangeRatesProvider.ExchangeRate;
 import de.schildbach.wallet.WalletApplication;
 import de.schildbach.wallet.service.BlockchainState;
 import de.schildbach.wallet.service.BlockchainStateLoader;
-import hashengineering.namecoin.wallet.R;
+import hashengineering.unobtanium.wallet.R;
 import org.bitcoinj.core.Coin;
 import org.bitcoinj.core.Wallet;
 import org.bitcoinj.utils.Fiat;
@@ -219,7 +219,7 @@ public final class WalletBalanceFragment extends Fragment
 				viewBalanceBtc.setFormat(config.getFormat());
 				viewBalanceBtc.setAmount(balance);
 
-				final boolean tooMuch = balance.isGreaterThan(Coin.valueOf(1000000, 0));
+				final boolean tooMuch = balance.isGreaterThan(Coin.valueOf(100, 0));
 
 				viewBalanceTooMuch.setVisibility(tooMuch ? View.VISIBLE : View.GONE);
 

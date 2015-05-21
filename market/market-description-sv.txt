@@ -1,12 +1,12 @@
-<b>Ha alltid dina bitcoin med dig i fickan!</b> Du gör betalningar genom att snabbt scanna en QR-kod. Handlare får betalningar tillförlitligt och omedelbart. Namecoin Wallet är den första mobila bitcoin-appen, och utan tvekan den mest säkra!
+<b>Ha alltid dina bitcoin med dig i fickan!</b> Du gör betalningar genom att snabbt scanna en QR-kod. Handlare får betalningar tillförlitligt och omedelbart. Unobtanium Wallet är den första mobila bitcoin-appen, och utan tvekan den mest säkra!
 
 
 <b>FUNKTIONER</b>
 
-• Ingen registrering, web- eller molntjänst behövs! Namecoin Wallet är decentraliserad och peer-to-peer.
-• Visa summa bitcoin i NMC, mNMC eller µNMC.
+• Ingen registrering, web- eller molntjänst behövs! Unobtanium Wallet är decentraliserad och peer-to-peer.
+• Visa summa bitcoin i UNO, mNMC eller µNMC.
 • Konventering till och från nationell valuta.
-• Skicka och ta emot bitcoin via NFC, QR-koder eller en Namecoin-URL.
+• Skicka och ta emot bitcoin via NFC, QR-koder eller en Unobtanium-URL.
 • Adressbok för de Namecoinadresser man använder ofta.
 • När du är nedkopplad kan du fortfarande betala via Bluetooth.
 • Meddelande om mottagna bitcoin.
@@ -16,7 +16,7 @@
 
 <b>BIDRA</b>
 
-Namecoin Wallet är <b>öppen mjukvara</b> och <b>fri mjukvara</b>. Licens: GPLv3
+Unobtanium Wallet är <b>öppen mjukvara</b> och <b>fri mjukvara</b>. Licens: GPLv3
 https://www.gnu.org/licenses/gpl-3.0.en.html
 
 Vår källkod finns tillgänglig på GitHub:

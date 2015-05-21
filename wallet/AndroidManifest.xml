@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
           xmlns:tools="http://schemas.android.com/tools"
-	package="hashengineering.namecoin.wallet"
+	package="hashengineering.unobtanium.wallet"
 	android:installLocation="internalOnly"
 	android:versionCode="10013"
 	android:versionName="0.13-beta" >
@@ -190,21 +190,21 @@
 
 		<provider
 			android:name="de.schildbach.wallet.AddressBookProvider"
-			android:authorities="hashengineering.namecoin.wallet.address_book"
+			android:authorities="hashengineering.unobtanium.wallet.address_book"
 			android:exported="false" />
 		<provider
 			android:name="de.schildbach.wallet.ExchangeRatesProvider"
-			android:authorities="hashengineering.namecoin.wallet.exchange_rates"
+			android:authorities="hashengineering.unobtanium.wallet.exchange_rates"
 			android:exported="false" />
 		<provider
 			android:name="de.schildbach.wallet.FileAttachmentProvider"
-			android:authorities="hashengineering.namecoin.wallet.file_attachment"
+			android:authorities="hashengineering.unobtanium.wallet.file_attachment"
 			android:exported="false"
 			android:grantUriPermissions="true" />
 
 		<receiver
 			android:name="de.schildbach.wallet.WalletBalanceWidgetProvider"
-			android:label="Namecoin Wallet Balance" >
+			android:label="Unobtanium Wallet Balance" >
 			<intent-filter>
 				<action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
 			</intent-filter>

@@ -1,20 +1,20 @@
-<b>Draag je Namecoins altijd bij je, in je broekzak!</b> Je kunt vlot betalen door een QR-code te scannen. Als handelaar ontvang je je betalingen betrouwbaar en onmiddelijk. Namecoin Wallet is de eerste mobiele Namecoin-app, en misschien wel de veiligste!
+<b>Draag je Unobtanium altijd bij je, in je broekzak!</b> Je kunt vlot betalen door een QR-code te scannen. Als handelaar ontvang je je betalingen betrouwbaar en onmiddelijk. Unobtanium Wallet is de eerste mobiele Unobtanium-app, en misschien wel de veiligste!
 
 <b>FEATURES</b>
 
 • Geen registratie, webservice of cloud vereist! De portemonnee is decentraal en peer-to-peer.
-• Geef het Namecoin-bedrag weer in NMC, mNMC en µNMC.
+• Geef het Unobtanium-bedrag weer in UNO, mNMC en µNMC.
 • Conversie van en naar nationale valuta.
-* Verzend en ontvang Namecoin via NFC, QR-codes of Namecoin-URL's
-• Adresboek voor regelmatig gebruikte Namecoin-adressen.
+* Verzend en ontvang Unobtanium via NFC, QR-codes of Unobtanium-URL's
+• Adresboek voor regelmatig gebruikte Unobtanium-adressen.
 • Ook offline toch betalen via Bluetooth
-• Systeemmelding wanneer je Namecoins ontvangt
-• App widget voor Namecoin saldo.
+• Systeemmelding wanneer je Unobtanium ontvangt
+• App widget voor Unobtanium saldo.
 
 
 <b>HELP MEE</b>
 
-Namecoin Wallet is <b>open source</b> en <b>free software</b>. Licentie: GPLv3
+Unobtanium Wallet is <b>open source</b> en <b>free software</b>. Licentie: GPLv3
 https://www.gnu.org/licenses/gpl-3.0.en.html
 
 Onze broncode is beschikbaar op GitHub:

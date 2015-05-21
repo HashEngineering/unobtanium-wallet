@@ -1,21 +1,21 @@
-Nosite svoje novce vedno s seboj v žepu. Plačila so hitra, le prečitate QR-kodo. Tudi prejemanje plačil je zanesljivo in takojšnje. Namecoin Wallet je prva mobilna aplikacija za Namecoin in najbrž tudi najbolj varna!
+Nosite svoje novce vedno s seboj v žepu. Plačila so hitra, le prečitate QR-kodo. Tudi prejemanje plačil je zanesljivo in takojšnje. Unobtanium Wallet je prva mobilna aplikacija za Unobtanium in najbrž tudi najbolj varna!
 
 LASTNOSTI:
 
 • Potrebna ni nobena registracija, spletna storitev ali oblak! Ta denarnica deluje povsem decentralizirano in vrstniško.
-• Prikaz zneskov v NMC, mNMC ali µNMC.
+• Prikaz zneskov v UNO, mNMC ali µNMC.
 • Samodejna pretvorba v evre in druge lokalne valute.
-• Pošiljanje in prejemanje Namecoinov prek NFC, QR-kod ali Namecoin URL-jev.
-• Zasebni imenik Namecoin naslovov.
+• Pošiljanje in prejemanje Namecoinov prek NFC, QR-kod ali Unobtanium URL-jev.
+• Zasebni imenik Unobtanium naslovov.
 • Z Namecoinom lahko plačujete tudi, če nimate povezave.
 • Sistemska obvestila ob prejetih novcih.
 • Widget, ki prikazuje stanje v denarnici.
 
 Več o Namecoinu lahko zveste na
-https://Namecoin.org/sl/
+https://Unobtanium.org/sl/
 
-Če želite prispevati k aplikaciji Namecoin Wallet, se nam pridružite na
-https://github.com/schildbach/Namecoin-wallet
+Če želite prispevati k aplikaciji Unobtanium Wallet, se nam pridružite na
+https://github.com/schildbach/Unobtanium-wallet
 
 Licenca: GPLv3
 Uporaba na lastno odgovornost!

@@ -4,11 +4,11 @@
 	<string name="help_wallet">
 <![CDATA[
 		<p>
-			V ľavej hornej časti obrazovky je Vaša aktuálna Namecoin adresa, túto adresu potrebuje poznať odosielateľ, aby Vám mohol poslať Namecoiny.
+			V ľavej hornej časti obrazovky je Vaša aktuálna Unobtanium adresa, túto adresu potrebuje poznať odosielateľ, aby Vám mohol poslať Namecoiny.
 			Kliknutím na adresu ju môžte zmeniť.
 		</p>
 		<p>
-			QR kód na pravej strane obsahuje Vašu Namecoin adresu, odosielateľ ho môže jednoducho naskenovať.
+			QR kód na pravej strane obsahuje Vašu Unobtanium adresu, odosielateľ ho môže jednoducho naskenovať.
 			Kliknite na QR kód, aby ste ho zväčšili.
 		</p>
 		<p>
@@ -31,7 +31,7 @@
 	<string name="help_request_coins">
 <![CDATA[
 		<p>
-			Na tejto obrazovke môžete vyžiadať Namecoiny od niekoho iného (kto má nainštalovanú aplikáciu Namecoin Wallet).
+			Na tejto obrazovke môžete vyžiadať Namecoiny od niekoho iného (kto má nainštalovanú aplikáciu Unobtanium Wallet).
 		</p>
 		<p>
 			Najprv zadajte sumu Namecoinov, ktoré chcete vyžiadať.
@@ -39,7 +39,7 @@
 		<p>
 			Potom dajte druhej strane naskenovať vygenerovaný QR kód
 			alebo môžte svoju žiadosť poslať použitím tlačidla zdieľať.
-			Druhá strana potom klikne na Namecoin URL.
+			Druhá strana potom klikne na Unobtanium URL.
 		</p>
 		<p>
 			V oboch prípadoch druhá strana uvidí predvyplnenú obrazovku na odosielanie Namecoinov.
@@ -51,12 +51,12 @@
 <![CDATA[
 		<p>
 			Práve ste začali proces odosielania Namecoinov.
-			Dostali ste sa sem z hlavnej obrazovky alebo kliknutím na Namecoin adresu v prehliadači.
+			Dostali ste sa sem z hlavnej obrazovky alebo kliknutím na Unobtanium adresu v prehliadači.
 		</p>
 		<p>
 			Najprv zadajte adresu, na ktorú chcete odoslať platbu.
 			Ak sa adresa nachádza v adresári, tak sa automaticky doplní.
-			Kliknutím na ikonu fotoaparátu môžete naskenovať QR kód s Namecoin adresou alebo požiadavkou na zaplatenie.
+			Kliknutím na ikonu fotoaparátu môžete naskenovať QR kód s Unobtanium adresou alebo požiadavkou na zaplatenie.
 		</p>
 		<p>
 			Ďalej vidíte koľko Namecoinov môžete aktuálne minúť.

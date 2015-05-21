@@ -11,7 +11,7 @@
 			android:title="@string/about_copyright_title" />
         <Preference
                 android:summary="Version 3.0 (v3.0.1.0-unk-MultiAlgo) and above"
-                android:title="Namecoin Compatibility" />
+                android:title="Unobtanium Compatibility" />
 
 		<Preference
 			android:key="about_license"

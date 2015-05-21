@@ -2,9 +2,9 @@
 <resources>
 
 	<string-array name="preferences_precision_labels">
-		<item>NMC, 8 desimaler</item>
-		<item>NMC, 6 desimaler</item>
-		<item>NMC, 4 desimaler</item>
+		<item>UNO, 8 desimaler</item>
+		<item>UNO, 6 desimaler</item>
+		<item>UNO, 4 desimaler</item>
 		<item>mNMC, 2 desimaler</item>
 		<item>µNMC, ingen desimaler</item>
 	</string-array>

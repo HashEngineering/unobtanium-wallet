@@ -1,20 +1,20 @@
-Have your Namecoins always with you, in your pocket! You pay by quickly scanning a QR-code. As a merchant, you receive payments reliably and instantly. Namecoin Wallet is the first mobile Namecoin app, and arguably also the most secure!
+Have your Unobtanium always with you, in your pocket! You pay by quickly scanning a QR-code. As a merchant, you receive payments reliably and instantly. Unobtanium Wallet is the first mobile Unobtanium app, and arguably also the most secure!
 
 <b>FEATURES</b>
 
 • No registration, web service or cloud needed! This wallet is de-centralized and peer to peer.
-• Display of Namecoin amount in NMC, mNMC and µNMC.
+• Display of Unobtanium amount in UNO, mNMC and µNMC.
 • Conversion to and from national currencies.
-• Sending and receiving of Namecoin via NFC, QR-codes or Namecoin URLs.
-• Address book for regularly used Namecoin addresses.
+• Sending and receiving of Unobtanium via NFC, QR-codes or Unobtanium URLs.
+• Address book for regularly used Unobtanium addresses.
 • When you're offline, you can still pay via Bluetooth.
 • System notification for received coins.
 • Sweeping of paper wallets (e.g. those used for cold storage).
-• App widget for Namecoin balance.
+• App widget for Unobtanium balance.
 
 <b>CONTRIBUTE</b>
 
-Namecoin Wallet is <b>open source</b> and <b>free software</b>. License: GPLv3
+Unobtanium Wallet is <b>open source</b> and <b>free software</b>. License: GPLv3
 https://www.gnu.org/licenses/gpl-3.0.en.html
 
 Our source code is available at GitHub:

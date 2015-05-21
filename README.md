@@ -1,4 +1,4 @@
-Welcome to _Namecoin Wallet_, a standalone Namecoin payment app for your Android device!
+Welcome to _Unobtanium Wallet_, a standalone Unobtanium payment app for your Android device!
 
 This project contains several sub-projects:
 
