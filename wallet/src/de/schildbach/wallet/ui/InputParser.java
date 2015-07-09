@@ -99,7 +99,7 @@ public abstract class InputParser
 					error(R.string.input_parser_invalid_paymentrequest, x.getMessage());
 				}
 			}
-			else if (input.startsWith(CoinDefinition.coinURIScheme +":"))
+			else if (input.startsWith(CoinDefinition.coinURIScheme +":") || input.startsWith(BitcoinURI.BITCOIN_SCHEME2+":"))
 			{
 				try
 				{
