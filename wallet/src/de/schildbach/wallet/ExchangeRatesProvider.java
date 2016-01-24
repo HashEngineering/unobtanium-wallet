@@ -436,6 +436,149 @@ public class ExchangeRatesProvider extends ContentProvider
         return null;
     }
 
+	private static Object getCoinValueBTC_cryptopia()
+	{
+		//final Map<String, ExchangeRate> rates = new TreeMap<String, ExchangeRate>();
+		// Keep the LTC rate around for a bit
+		Double btcRate = 0.0;
+		String currency = CoinDefinition.cryptsyMarketCurrency;
+		String url = "https://www.cryptopia.co.nz/api/GetMarket/1651";
+
+
+
+
+
+		try {
+			// final String currencyCode = currencies[i];
+			final URL URL_bter = new URL(url);
+			final HttpURLConnection connection = (HttpURLConnection)URL_bter.openConnection();
+			connection.setConnectTimeout(Constants.HTTP_TIMEOUT_MS * 2);
+			connection.setReadTimeout(Constants.HTTP_TIMEOUT_MS * 2);
+			connection.connect();
+
+			final StringBuilder content = new StringBuilder();
+
+			Reader reader = null;
+			try
+			{
+				reader = new InputStreamReader(new BufferedInputStream(connection.getInputStream(), 1024));
+				Io.copy(reader, content);
+				final JSONObject head = new JSONObject(content.toString());
+
+				/*{
+					"Success":true,
+						"Message":null,
+						"Data":{
+							"TradePairId":100,
+							"Label":"LTC/BTC",
+							"AskPrice":0.00006000,
+							"BidPrice":0.02000000,
+							"Low":0.00006000,
+							"High":0.00006000,
+							"Volume":1000.05639978,
+							"LastPrice":0.00006000,
+							"LastVolume":499.99640000,
+							"BuyVolume":67003436.37658233,
+							"SellVolume":67003436.37658233,
+							"Change":-400.00000000
+						}
+				}*/
+				String result = head.getString("Success");
+				if(result.equals("true"))
+				{
+					JSONObject dataObject = head.getJSONObject("Data");
+
+					Double averageTrade = Double.valueOf(0.0);
+					if(dataObject.get("Label").equals("UNO/BTC"))
+						averageTrade = dataObject.getDouble("LastPrice");
+
+
+					if(currency.equalsIgnoreCase("BTC"))
+						btcRate = averageTrade;
+				}
+				return btcRate;
+			}
+			finally
+			{
+				if (reader != null)
+					reader.close();
+			}
+
+		}
+		catch (final IOException x)
+		{
+			x.printStackTrace();
+		}
+		catch (final JSONException x)
+		{
+			x.printStackTrace();
+		}
+
+		return null;
+	}
+	private static Object getCoinValueBTC_bittrex()
+	{
+		//final Map<String, ExchangeRate> rates = new TreeMap<String, ExchangeRate>();
+		// Keep the LTC rate around for a bit
+		Double btcRate = 0.0;
+		String currency = CoinDefinition.cryptsyMarketCurrency;
+		String url = "https://bittrex.com/api/v1.1/public/getticker?market=btc-uno";
+
+
+
+
+
+		try {
+			// final String currencyCode = currencies[i];
+			final URL URL_bter = new URL(url);
+			final HttpURLConnection connection = (HttpURLConnection)URL_bter.openConnection();
+			connection.setConnectTimeout(Constants.HTTP_TIMEOUT_MS * 2);
+			connection.setReadTimeout(Constants.HTTP_TIMEOUT_MS * 2);
+			connection.connect();
+
+			final StringBuilder content = new StringBuilder();
+
+			Reader reader = null;
+			try
+			{
+				reader = new InputStreamReader(new BufferedInputStream(connection.getInputStream(), 1024));
+				Io.copy(reader, content);
+				final JSONObject head = new JSONObject(content.toString());
+
+				/*
+				{"success":true,"message":"","result":{"Bid":0.00313794,"Ask":0.00321785,"Last":0.00315893}}
+				}*/
+				String result = head.getString("success");
+				if(result.equals("true"))
+				{
+					JSONObject dataObject = head.getJSONObject("result");
+
+					Double averageTrade = dataObject.getDouble("Last");
+
+
+					if(currency.equalsIgnoreCase("BTC"))
+						btcRate = averageTrade;
+				}
+				return btcRate;
+			}
+			finally
+			{
+				if (reader != null)
+					reader.close();
+			}
+
+		}
+		catch (final IOException x)
+		{
+			x.printStackTrace();
+		}
+		catch (final JSONException x)
+		{
+			x.printStackTrace();
+		}
+
+		return null;
+	}
     private static Object getCoinValueBTC_BTER()
     {
         //final Map<String, ExchangeRate> rates = new TreeMap<String, ExchangeRate>();
@@ -508,11 +651,11 @@ public class ExchangeRatesProvider extends ContentProvider
 
             Double btcRate = 0.0;
             boolean cryptsyValue = true;
-            Object result = getCoinValueBTC();
+            Object result = getCoinValueBTC_cryptopia();
 
             if(result == null)
             {
-               result = getCoinValueBTC_BTER();
+               result = getCoinValueBTC_bittrex();
                cryptsyValue = false;
                if(result == null)
                     return null;
